@@ -1,0 +1,204 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local SILENTAIMPART = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local THUSKY = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local STREAMABLE = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local WelcomeImage = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+Frame.Parent = game.StarterGui.ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.350157738, 0, 0.224153161, 0)
+Frame.Size = UDim2.new(0, 392, 0, 296)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.0012795584, 0, -0.00137411582, 0)
+Frame_2.Size = UDim2.new(0, 392, 0, 55)
+
+UICorner.Parent = Frame_2
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(129, 125, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(8, 0, 255))}
+UIGradient.Parent = Frame_2
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 9.000
+TextLabel.Position = UDim2.new(0.139026567, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 114, 0, 55)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "🔥 | LOCKERS HAVEN"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 28.000
+
+UICorner_2.Parent = TextLabel
+
+UICorner_3.Parent = Frame
+
+SILENTAIMPART.Name = "SILENT AIM PART"
+SILENTAIMPART.Parent = Frame
+SILENTAIMPART.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SILENTAIMPART.Position = UDim2.new(0.732142866, 0, 0.679054022, 0)
+SILENTAIMPART.Size = UDim2.new(0, 86, 0, 29)
+SILENTAIMPART.Font = Enum.Font.SourceSans
+SILENTAIMPART.Text = "GR6VE PORTAL"
+SILENTAIMPART.TextColor3 = Color3.fromRGB(0, 0, 0)
+SILENTAIMPART.TextSize = 14.000
+SILENTAIMPART.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gr6ve/GR6VE-DH-/main/GR6VE%20GUI",true))();
+end)
+UICorner_4.Parent = SILENTAIMPART
+
+THUSKY.Name = "THUSKY"
+THUSKY.Parent = Frame
+THUSKY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+THUSKY.Position = UDim2.new(0.390306115, 0, 0.67567569, 0)
+THUSKY.Size = UDim2.new(0, 86, 0, 29)
+THUSKY.Font = Enum.Font.SourceSans
+THUSKY.Text = "THUSKY (Q)"
+THUSKY.TextColor3 = Color3.fromRGB(0, 0, 0)
+THUSKY.TextSize = 14.000
+THUSKY.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gr6ve/GATEWAY/main/THUSKY",true))();
+end)
+UICorner_5.Parent = THUSKY
+
+STREAMABLE.Name = "STREAMABLE"
+STREAMABLE.Parent = Frame
+STREAMABLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STREAMABLE.Position = UDim2.new(0.0484694056, 0, 0.679054022, 0)
+STREAMABLE.Size = UDim2.new(0, 86, 0, 29)
+STREAMABLE.Font = Enum.Font.SourceSans
+STREAMABLE.Text = "STREAMABLE"
+STREAMABLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+STREAMABLE.TextSize = 14.000
+STREAMABLE.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gr6ve/GATEWAY/main/STREAMABLE",true))();
+end)
+UICorner_6.Parent = STREAMABLE
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.732142866, 0, 0.0135135055, 0)
+TextLabel_2.Size = UDim2.new(0, 96, 0, 45)
+TextLabel_2.Font = Enum.Font.Roboto
+TextLabel_2.Text = "belief#4867"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 23.000
+
+UICorner_7.Parent = TextLabel_2
+
+WelcomeImage.Name = "WelcomeImage"
+WelcomeImage.Parent = Frame
+WelcomeImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeImage.Position = UDim2.new(0.048469387, 0, 0.246621624, 0)
+WelcomeImage.Size = UDim2.new(0, 100, 0, 100)
+WelcomeImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_8.CornerRadius = UDim.new(10, 0)
+UICorner_8.Parent = WelcomeImage
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.329081625, 0, 0.331081092, 0)
+TextLabel_3.Size = UDim2.new(0, 221, 0, 47)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 30.000
+
+UICorner_9.Parent = TextLabel_3
+
+-- Scripts:
+
+local function MIVVGO_fake_script() -- WelcomeImage.LocalScript 
+	local script = Instance.new('LocalScript', WelcomeImage)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	local WelcomeImage = script.Parent
+	WelcomeImage.Image = content
+	
+end
+coroutine.wrap(MIVVGO_fake_script)()
+local function VCMB_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	script.Parent.Text = "Welcome ".. game.Players.LocalPlayer.Name
+end
+coroutine.wrap(VCMB_fake_script)()
+local function UXAW_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Draggble
+	-- Credits: Veky
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(UXAW_fake_script)()
